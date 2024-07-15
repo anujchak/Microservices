@@ -20,6 +20,7 @@ public List<contact> getContact(@PathVariable("k") int userId)
 	return u.getContact(userId);
 }
 @GetMapping("/demo")
+//anuj change
 public String demo()
 {    
 	 Random rand = new Random();
